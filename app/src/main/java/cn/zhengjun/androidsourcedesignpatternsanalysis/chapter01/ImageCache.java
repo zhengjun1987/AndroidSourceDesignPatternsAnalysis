@@ -11,6 +11,5 @@ import android.graphics.Bitmap;
 
 interface ImageCache {
     Bitmap get(String key);
-
     Bitmap put(String key, Bitmap value);
 }

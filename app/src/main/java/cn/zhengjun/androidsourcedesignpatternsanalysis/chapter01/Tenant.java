@@ -12,19 +12,19 @@ import java.util.List;
 public class Tenant {
     private float area;
     private float price;
-    public static final float diffArea = 1.0f;
-    public static final float diffPrice = 100.0f;
+    static final float diffArea = 1.0f;
+    static final float diffPrice = 100.0f;
 
     public Tenant(float area, float price) {
         this.area = area;
         this.price = price;
     }
 
-    public float getArea() {
+    float getArea() {
         return area;
     }
 
-    public float getPrice() {
+    float getPrice() {
         return price;
     }
 

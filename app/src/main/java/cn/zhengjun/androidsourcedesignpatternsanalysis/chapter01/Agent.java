@@ -3,9 +3,6 @@ package cn.zhengjun.androidsourcedesignpatternsanalysis.chapter01;
 import java.util.ArrayList;
 import java.util.List;
 
-import static cn.zhengjun.androidsourcedesignpatternsanalysis.chapter01.Tenant.diffArea;
-import static cn.zhengjun.androidsourcedesignpatternsanalysis.chapter01.Tenant.diffPrice;
-
 /**
  * Author  : Zheng Jun
  * Email   : zhengjun1987@outlook.com
@@ -36,6 +33,6 @@ public class Agent {
     }
 
     private boolean isRoomSuitable(Room room,Tenant tenant) {
-        return Math.abs(room.getPrice() - tenant.getPrice()) <= diffPrice && Math.abs(room.getArea() - tenant.getArea()) <= diffArea;
+        return Math.abs(room.getPrice() - tenant.getPrice()) <= Tenant.diffPrice && Math.abs(room.getArea() - tenant.getArea()) <= Tenant.diffArea;
     }
 }

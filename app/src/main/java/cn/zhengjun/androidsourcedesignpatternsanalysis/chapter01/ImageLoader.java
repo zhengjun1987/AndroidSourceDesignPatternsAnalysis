@@ -19,7 +19,6 @@ import java.util.concurrent.Executors;
  */
 
 public class ImageLoader implements ImageCache {
-    private ImageCache imageCache;
     private MemoryCache memoryCache = new MemoryCache();
     private DiskCache diskCache = new DiskCache();
     //    LruCache<String,Bitmap> mImageCache;
@@ -38,11 +37,6 @@ public class ImageLoader implements ImageCache {
 //            }
 //        };
 //    }
-
-
-    public void setImageCache(ImageCache imageCache) {
-        this.imageCache = imageCache;
-    }
 
     public void displayImage(final String url, final ImageView imageView) {
         imageView.setTag(url);

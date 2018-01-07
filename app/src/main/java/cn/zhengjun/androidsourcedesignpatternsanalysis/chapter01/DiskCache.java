@@ -6,7 +6,7 @@ import android.graphics.BitmapFactory;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 
-import static cn.zhengjun.androidsourcedesignpatternsanalysis.chapter01.MyUtils.closeClosable;
+import static cn.zhengjun.androidsourcedesignpatternsanalysis.MyUtils.closeClosable;
 
 /**
  * Author  : Zheng Jun

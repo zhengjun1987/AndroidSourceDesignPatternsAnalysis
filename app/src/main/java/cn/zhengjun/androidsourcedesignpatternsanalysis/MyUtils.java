@@ -1,4 +1,4 @@
-package cn.zhengjun.androidsourcedesignpatternsanalysis.chapter01;
+package cn.zhengjun.androidsourcedesignpatternsanalysis;
 
 import java.io.Closeable;
 import java.io.IOException;

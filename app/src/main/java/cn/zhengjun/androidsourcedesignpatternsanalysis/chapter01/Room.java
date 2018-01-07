@@ -11,16 +11,16 @@ public class Room {
     private float area;
     private float price;
 
-    public Room(float area, float price) {
+    Room(float area, float price) {
         this.area = area;
         this.price = price;
     }
 
-    public float getArea() {
+    float getArea() {
         return area;
     }
 
-    public float getPrice() {
+    float getPrice() {
         return price;
     }
 
