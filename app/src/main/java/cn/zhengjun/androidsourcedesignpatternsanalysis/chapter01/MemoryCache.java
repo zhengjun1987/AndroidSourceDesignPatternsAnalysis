@@ -13,7 +13,7 @@ import android.util.LruCache;
 public class MemoryCache implements ImageCache {
     private LruCache<String,Bitmap> lruCache;
 
-    MemoryCache() {
+    public MemoryCache() {
         initCache();
     }
 

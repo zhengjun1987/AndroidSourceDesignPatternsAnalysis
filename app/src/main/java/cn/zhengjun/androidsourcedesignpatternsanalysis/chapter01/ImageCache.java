@@ -9,7 +9,7 @@ import android.graphics.Bitmap;
  * Summary : 在这里描述Class的主要功能
  */
 
-interface ImageCache {
+public interface ImageCache {
     Bitmap get(String key);
     Bitmap put(String key, Bitmap value);
 }
